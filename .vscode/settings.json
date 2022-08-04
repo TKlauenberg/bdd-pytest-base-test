@@ -1,0 +1,21 @@
+{
+  "cucumber.features": [
+    "tests/features/**/*.feature",
+    "features/**/*.feature",
+    "src/test/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "test/**/*.py",
+    "features/**/*.php",
+    "features/**/*.rb",
+    "features/**/*.ts",
+    "features/**/*.py",
+    "src/test/**/*.java",
+    "*specs*/**/.cs"
+  ],
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}

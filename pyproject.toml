@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-pytest"
+version = "0.1.0"
+description = ""
+authors = ["Klauenberg, Tobias <Tobias.Klauenberg@t-systems.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-bdd = "^6.0.1"
+autopep8 = "^1.6.0"
+pytest-testinfra = "^6.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
